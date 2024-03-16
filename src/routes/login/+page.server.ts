@@ -3,7 +3,7 @@ import type { Actions } from './$types';
 
 import { Argon2id } from 'oslo/password';
 import { createAndSetSession } from '$lib/server/authUtils';
-import { lucia } from '$lib/server/lucia';
+import { lucia } from '$lib/server/auth';
 import { getUserByEmail } from '$lib/server/database/repository/user';
 
 export const actions: Actions = {

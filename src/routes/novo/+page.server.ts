@@ -1,6 +1,6 @@
 import { redirect } from '@sveltejs/kit';
 import { createAndSetSession } from '$lib/server/authUtils';
-import { lucia } from '$lib/server/lucia';
+import { lucia } from '$lib/server/auth';
 import { Argon2id } from 'oslo/password';
 import { getUserByEmail, insertNewUser } from '$lib/server/database/repository/user.js';
 

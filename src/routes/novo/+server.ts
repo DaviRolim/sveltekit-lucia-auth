@@ -1,7 +1,7 @@
 import { getUserByEmail, insertNewUser } from '$lib/server/database/repository/user';
 import { json } from '@sveltejs/kit';
 import { createAndSetSession } from '$lib/server/authUtils';
-import { lucia } from '$lib/server/lucia';
+import { lucia } from '$lib/server/auth';
 import { Argon2id } from 'oslo/password';
 
 /** @type {import('./$types').RequestHandler} */

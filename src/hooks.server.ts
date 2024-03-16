@@ -1,7 +1,7 @@
 import type { Handle } from '@sveltejs/kit';
 
 import { deleteSessionCookie } from '$lib/server/authUtils';
-import { lucia } from '$lib/server/lucia';
+import { lucia } from '$lib/server/auth';
 
 export const handle: Handle = async ({ event, resolve }) => {
 	// Retrieve the session ID from the browser's cookies

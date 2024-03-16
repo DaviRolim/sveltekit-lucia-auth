@@ -1,4 +1,4 @@
-import { lucia } from '$lib/server/lucia';
+import { lucia } from '$lib/server/auth';
 import { redirect } from '@sveltejs/kit';
 import type { Actions } from './$types';
 import { deleteSessionCookie } from '$lib/server/authUtils';

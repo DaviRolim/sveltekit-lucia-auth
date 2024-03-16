@@ -1,6 +1,11 @@
 .DS_Store
 node_modules
 /build
+drizzleMigrations
+/drizzleMigrations
+localDB
+/localDB
+/localDB/*
 /.svelte-kit
 /package
 .env
